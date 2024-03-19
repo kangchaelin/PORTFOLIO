@@ -16,6 +16,78 @@
 >
 >참여 인원: 팀프로젝트(5명)
 
+<details>
+<summary>상세 보기</summary>
+
+## 👀 서비스 소개
+스마트폰 기술의 급격한 발전으로 개인이 소지하고 있는 사진이 많아졌지만, 이를 관리하기 위한 서비스는 국내 시장에서 MY BOX 서비스가 독보적인 존재로 자리 잡고 있습니다. 이러한 현실을 토대로, 저희 서비스는 기본 태그 10개를 제공하여 이미지에 태그를 달아 분류 및 이미지 검색 기능을 제공합니다. 또한 사용자가 설정할 수 있는 맞춤 태그 시스템을 구축하여 사용자 지정 태그로서 분류가 가능합니다. 
+
+<br>
+
+## 📅 프로젝트 기간 및 참여인원
+> 2024년 02월 01일 ~ 2024년 02월 28일
+> 
+> 참여 인원: 팀프로젝트(5명)
+<br>
+
+## ⚙ 시스템 아키텍처
+![image](https://github.com/kangchaelin/PORTFOLIO/assets/142488328/12ef7202-1548-486c-a21e-d5feab6b827a)
+
+<br>
+
+## 📌 서비스 흐름도
+![image](https://github.com/kangchaelin/PORTFOLIO/assets/142488328/2bbb2a9b-861d-48af-8633-7fcdb0b3a133)
+
+
+<br>
+
+## 📌 ER다이어그램
+![image](https://github.com/kangchaelin/PORTFOLIO/assets/142488328/e3d5e73e-8423-4e7c-acd5-81dd377e67c4)
+
+
+<br>
+
+## ⭐ 나의 역할: Back-End & Front-End
+- Spring Security를 활용한 사용자 블로피시 암호화
+- 리액트에서 AWS S3 서비스를 활용하여 이미지 데이터 통신
+- 네이버 로그인 API 기능 구현
+- 회원가입 기능/S3 이미지 경로 저장/이미지 리스트 렌더링
+
+<details>
+   <summary>Front</summary>
+      <br/>
+<div align="center">
+  <div><네이버 로그인 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/8d6e79ab-5c7d-47c1-a835-63a9dfcc44f3" alt="이미지 설명" width="400">
+  <br>
+  <br>
+  <div><이미지 업로드 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/0791ffa9-67c9-42c8-98c6-d7ab9719b5f9" alt="이미지 설명" width="400">
+  <br>
+  <br>
+  <div><회원가입 기능></div>
+  <img src="https://github.com/kangchaelin/kangchaelin/assets/142488328/14044bd2-0556-42b6-8bf1-831dec015cb7" alt="이미지 설명" width="400">  
+</div>
+
+</details>
+
+<details><summary>Back</summary>
+<br>
+<h5>📍 Spring Security를 활용한 사용자 블로피시 암호화</h5>
+<p>1. 스프링 시큐리티 모듈의 의존성을 추가합니다..</p>
+<p>2. BCryptPasswordEncoder를 사용하여 비밀번호를 암호화합니다.</p>
+<p>3. 사용자가 입력한 비밀번호를 암호화하여 저장된 해시 값과 비교해 일치 여부를 확인합니다. BCryptPasswordEncoder의 'matches()' 메서드를 사용하여 비교합니다.</p>
+* 데이터베이스에 저장된 결과
+   
+![image](https://github.com/kangchaelin/PORTFOLIO/assets/142488328/3f2c7f55-c259-40a5-8e90-4c818ff0ba60)
+
+
+</details>
+
+</details>
+
+
+
 <br>
 
 ![image](https://github.com/kangchaelin/PORTFOLIO/assets/142488328/486a4f91-cd0d-4e33-9631-5f7be2208d55)
